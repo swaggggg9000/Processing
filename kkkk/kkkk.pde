@@ -24,7 +24,7 @@ boolean startfigurafinal= false;
 int startTime;
 
 void setup() {
-  size(800, 700);
+  size(1280, 720);
   pg = createGraphics(width, height);
   noFill();
   frameRate(100);
@@ -51,6 +51,7 @@ void setup() {
 
 void draw() {
     if (millis() - startTime >= 35000) {
+      println("35s");
     return; 
   }
   background(0);
